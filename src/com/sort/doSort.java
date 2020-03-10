@@ -62,6 +62,16 @@ public class doSort {
                     CompareTimes=Base.getCompare();
                     AssignTimes=Base.getAssign();
                     break;
+                case "选择排序":
+                    SelectSort.Sort(array);
+                    CompareTimes=Base.getCompare();
+                    AssignTimes=Base.getAssign();
+                    break;
+                case "快速排序":
+                    QuickSort.Sort(array);
+                    CompareTimes=Base.getCompare();
+                    AssignTimes=Base.getAssign();
+                    break;
                 default:
                     break;
             }
