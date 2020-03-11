@@ -72,6 +72,10 @@ public class doSort {
                     CompareTimes=Base.getCompare();
                     AssignTimes=Base.getAssign();
                     break;
+                case "希尔排序":
+
+                case "基数排序":
+
                 default:
                     break;
             }
