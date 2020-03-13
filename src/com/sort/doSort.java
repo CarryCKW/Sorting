@@ -23,6 +23,7 @@ public class doSort {
 
     private TimeData timeData;
 
+    private static int step=0;
     public doSort(){}
     public doSort(String Type){
         this.Type=Type;
@@ -30,11 +31,15 @@ public class doSort {
         timeData=new TimeData();
 
         textComponent=new TextComponent();
-        textComponent.setShowText(Type + "\r\n 排序开始:");
+        TextComponent.setShowText(Type + "\r\n 排序开始:");
+        step++;//记录使用step次sort
         this.sort();
-        textComponent.setShowText("排序结束！");
+        TextComponent.setShowText("排序结束！");
     }
 
+    public static int getStep(){
+        return step;
+    }
     private void sort(){
         for(int i=0;i<20;i++){
             array=new int[len];
@@ -73,9 +78,15 @@ public class doSort {
                     AssignTimes=Base.getAssign();
                     break;
                 case "希尔排序":
-
+                    ShellSort.Sort(array);
+                    CompareTimes=Base.getCompare();
+                    AssignTimes=Base.getAssign();
+                    break;
                 case "基数排序":
-
+                    RadixSort.Sort(array);
+                    CompareTimes=Base.getCompare();
+                    AssignTimes=Base.getAssign();
+                    break;
                 default:
                     break;
             }
@@ -83,9 +94,9 @@ public class doSort {
             Base.recover();
             endTime=System.currentTimeMillis();
             times[i]=(int)(endTime-startTime);
-            timeData.setTimes(i,(endTime-startTime));
+            TimeData.setTimes(i,(endTime-startTime));
             //timesD[i]=(double)(endTime-startTime); //->change to 秒
-            textComponent.setShowText("————数组容量为" + (i+1)*5000 +"——用时" + times[i] +"ms  ——比较次数：" + CompareTimes +" ——赋值次数: "+AssignTimes);
+            TextComponent.setShowText("————数组容量为" + (i+1)*5000 +"——用时" + times[i] +"ms  ——比较次数：" + CompareTimes +" ——赋值次数: "+AssignTimes);
             CompareTimes=0;
             AssignTimes=0;
             Base.recover();

@@ -42,12 +42,15 @@ public class Chat {
             //times[i]=(double)(Math.random()*5);
         }
         times= TimeData.getTimesD();
-        //double[] times=ds.getTimesD();
-        //ds=new doSort();
-        //times=ds.getTimesD();
+        
         double[][] data={{times[0],times[1],times[2],times[3],times[4],times[5],times[6],times[7],times[8],times[9],
-        times[10],times[11],times[12],times[13],times[14],times[15],times[16],times[17],times[18],times[19]},};
-        //double[][] data = {times};
+        times[10],times[11],times[12],times[13],times[14],times[15],times[16],times[17],times[18],times[19]},}; //original
+        /*double[][] data = new double[doSort.getStep()][20];
+        for (int i=0;i<doSort.getStep();i++){
+            for (int j=0;j<20;j++){
+                data[i][j]=times[j];
+            }
+        }*/ //wrong
 
         return DatasetUtilities.createCategoryDataset(rowKeys,colKeys,data);
     }

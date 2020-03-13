@@ -17,7 +17,7 @@ public class SelectComponent {
     }
 
     public static String getComboBoxSelection(){
-        String selection = new String();
+        String selection = "";
         return selection=(String)comboBox.getSelectedItem();
     }
     public static String[] getSelectType(){
