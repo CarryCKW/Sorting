@@ -17,5 +17,15 @@
         <jarDirectory url="file://D:/jar_Ex/jfreechart-1.0.19/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://D:/jar_Ex/poi-3.9" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/jar_Ex/poi-3.9" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
