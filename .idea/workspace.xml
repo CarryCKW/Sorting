@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="403a34c3-dc93-4966-9dc0-298ea8e588e1" name="Default Changelist" comment="">
+    <list default="true" id="403a34c3-dc93-4966-9dc0-298ea8e588e1" name="Default Changelist" comment="DSWs">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/70aafe3b-e5da-4da1-8d4c-d07a2f2896c5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +199,7 @@
       <workItem from="1585377528015" duration="10000" />
       <workItem from="1585377954929" duration="831000" />
       <workItem from="1585568848580" duration="251000" />
-      <workItem from="1586063731241" duration="244000" />
+      <workItem from="1586063731241" duration="511000" />
     </task>
     <task id="LOCAL-00001" summary="DSWORK">
       <created>1583827383675</created>
@@ -297,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586063897473</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="DSWs">
+      <created>1586063989841</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586063989841</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,12 +315,42 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/C-match/Sorting/out" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -344,10 +383,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="357" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.720@0.0.1280.720" timestamp="1584534828638" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1586063896789">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1586064221073">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1586063896789" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1586064221073" />
     <state x="395" y="75" key="DetectedRootsChooserDialog" timestamp="1583820427055">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
