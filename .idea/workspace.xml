@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403a34c3-dc93-4966-9dc0-298ea8e588e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +196,7 @@
       <workItem from="1585118269187" duration="127000" />
       <workItem from="1585377528015" duration="10000" />
       <workItem from="1585377954929" duration="831000" />
+      <workItem from="1585568848580" duration="251000" />
     </task>
     <task id="LOCAL-00001" summary="DSWORK">
       <created>1583827383675</created>
@@ -247,7 +247,42 @@
       <option name="project" value="LOCAL" />
       <updated>1585118372710</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DSWs">
+      <created>1585568897322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585568897338</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DSWs">
+      <created>1585568936156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585568936156</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DSWs">
+      <created>1585568994338</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585568994338</updated>
+    </task>
+    <task id="LOCAL-00011" summary="DSWs">
+      <created>1585569009150</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585569009150</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DSWs">
+      <created>1585569080400</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585569080400</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,10 +318,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="357" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.720@0.0.1280.720" timestamp="1584534828638" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1585569008666">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1585569079853">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1585569008666" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1585569079853" />
     <state x="395" y="75" key="DetectedRootsChooserDialog" timestamp="1583820427055">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -319,10 +354,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1585568900226" />
-    <state x="325" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1585377532456">
+    <state x="325" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1586063734832">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="325" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1585377532456" />
+    <state x="325" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1586063734832" />
     <state x="437" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584063355177">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
