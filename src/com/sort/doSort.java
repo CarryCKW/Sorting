@@ -93,8 +93,10 @@ public class doSort {
 
             Base.recover();
             endTime=System.currentTimeMillis();
+            //写入一个排序不同容量的对应时间
             times[i]=(int)(endTime-startTime);
             TimeData.setTimes(i,(endTime-startTime));
+
             //timesD[i]=(double)(endTime-startTime); //->change to 秒
             TextComponent.setShowText("————数组容量为" + (i+1)*5000 +"——用时" + times[i] +"ms  ——比较次数：" + CompareTimes +" ——赋值次数: "+AssignTimes);
             CompareTimes=0;

@@ -1,12 +1,18 @@
 package com.sort;
 
-public class SortExecute {
+public class SortExecute extends Thread{
     private String Type;
     private doSort newSortThread;
 
     private TextComponent textComponent;
 
-    public SortExecute(){
+    @Override
+    public void run() {
+        super.run();
+        doSortExecute();
+    }
+
+    public void doSortExecute(){
         Type=SelectComponent.getComboBoxSelection();
         textComponent=new TextComponent();
 
@@ -14,4 +20,13 @@ public class SortExecute {
         newSortThread = new doSort(Type);
 
     }
+
+//    public SortExecute(){
+//        Type=SelectComponent.getComboBoxSelection();
+//        textComponent=new TextComponent();
+//
+//        System.out.println("排序方式为" + Type);
+//        newSortThread = new doSort(Type);
+//
+//    }
 }

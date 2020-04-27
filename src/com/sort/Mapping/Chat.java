@@ -41,6 +41,7 @@ public class Chat {
             colKeys[i]= String.valueOf((i+1));
             //times[i]=(double)(Math.random()*5);
         }
+        //读取排序时间
         times= TimeData.getTimesD();
         
         double[][] data={{times[0],times[1],times[2],times[3],times[4],times[5],times[6],times[7],times[8],times[9],

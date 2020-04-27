@@ -1,6 +1,7 @@
 package com.sort.TempData;
 
 public class TimeData {
+
     public static double[] times=new double[20];
     public static double[] getTimesD(){
         return times;
