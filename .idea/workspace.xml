@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="403a34c3-dc93-4966-9dc0-298ea8e588e1" name="Default Changelist" comment="DSWs">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/70aafe3b-e5da-4da1-8d4c-d07a2f2896c5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="403a34c3-dc93-4966-9dc0-298ea8e588e1" name="Default Changelist" comment="增加线程池，修复生成和读取数据的混乱。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +89,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.RunMapping">
+  <component name="RunManager" selected="Application.RunSort">
     <configuration name="RunMapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shortestpath.RunMapping" />
       <module name="Sorting" />
@@ -159,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RunMapping" />
         <item itemvalue="Application.RunSort" />
+        <item itemvalue="Application.RunMapping" />
         <item itemvalue="Application.TestFloyd" />
         <item itemvalue="Application.TestReadExcel" />
         <item itemvalue="Application.Test" />
@@ -199,7 +197,9 @@
       <workItem from="1585377528015" duration="10000" />
       <workItem from="1585377954929" duration="831000" />
       <workItem from="1585568848580" duration="251000" />
-      <workItem from="1586063731241" duration="511000" />
+      <workItem from="1586063731241" duration="587000" />
+      <workItem from="1586262262760" duration="10000" />
+      <workItem from="1587969746595" duration="3988000" />
     </task>
     <task id="LOCAL-00001" summary="DSWORK">
       <created>1583827383675</created>
@@ -306,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586063989841</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="DSWs">
+      <created>1586064255023</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586064255023</updated>
+    </task>
+    <task id="LOCAL-00017" summary="增加线程池，修复生成和读取数据的混乱。">
+      <created>1587973905585</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587973905585</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +356,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -356,7 +372,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSWORK" />
     <MESSAGE value="DSWs" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSWs" />
+    <MESSAGE value="增加线程池，修复生成和读取数据的混乱。" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加线程池，修复生成和读取数据的混乱。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585378763874">
@@ -383,10 +400,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="357" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.720@0.0.1280.720" timestamp="1584534828638" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1586064221073">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1587973904817">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1586064221073" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1587973904817" />
     <state x="395" y="75" key="DetectedRootsChooserDialog" timestamp="1583820427055">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -395,22 +412,26 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="323" y="101" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1584530271840" />
-    <state width="1237" height="137" key="GridCell.Tab.0.bottom" timestamp="1585034333113">
+    <state width="1237" height="137" key="GridCell.Tab.0.bottom" timestamp="1587973929840">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1585034333113" />
-    <state width="1237" height="137" key="GridCell.Tab.0.center" timestamp="1585034333112">
+    <state width="1237" height="137" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587973929840" />
+    <state width="1237" height="137" key="GridCell.Tab.0.center" timestamp="1587973929840">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1585034333112" />
-    <state width="1237" height="137" key="GridCell.Tab.0.left" timestamp="1585034333112">
+    <state width="1237" height="137" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587973929840" />
+    <state width="1237" height="137" key="GridCell.Tab.0.left" timestamp="1587973929840">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1585034333112" />
-    <state width="1237" height="137" key="GridCell.Tab.0.right" timestamp="1585034333112">
+    <state width="1237" height="137" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587973929840" />
+    <state width="1237" height="137" key="GridCell.Tab.0.right" timestamp="1587973929840">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1585034333112" />
+    <state width="1237" height="137" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587973929840" />
+    <state x="483" y="71" key="RollbackChangesDialog" timestamp="1586064317063">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="483" y="71" key="RollbackChangesDialog/0.0.1280.720@0.0.1280.720" timestamp="1586064317063" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1584530280818">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -419,10 +440,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1585568900226" />
-    <state x="325" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1586063734832">
+    <state x="325" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1586262262458">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="325" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1586063734832" />
+    <state x="325" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1586262262458" />
     <state x="437" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584063355177">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
